@@ -140,6 +140,7 @@ header .fa-bars{
     flex-wrap: wrap;
     padding: 2rem 0;
     padding-bottom: 3rem;
+     margin-top: 2rem;
 }
 .about .row .video-container{
     flex: 1 1 40rem;
@@ -233,6 +234,7 @@ margin-right: 2rem;
     display: flex;
     flex-wrap: wrap;
     gap: 1.5rem;
+     margin-top: 4rem;
 
 }
 .products .box-container .box{
@@ -390,6 +392,7 @@ margin-right: 2rem;
     flex-wrap: wrap-reverse;
     gap: .5rem;
     align-items: center;
+     margin-top: 4rem;
    
 
 }
@@ -481,7 +484,7 @@ contact .row form{
     padding: 1.5rem;
     margin-top: 1.5rem;
     padding: top 2.5rem; 
-    font-size: 2rem;
+    font-size: 1.5rem;
     color: #333;
     border-top: .2rem solid rgba(0, 0,0, .3);
 }
@@ -508,6 +511,7 @@ section{
 }
 .home{
     background-position: left;
+    min-height:70vh;
 }
 
     }
@@ -570,6 +574,19 @@ section{
     font-size: 3rem;
 
 }
+.home{
+    min-height: 45vh;
+}
+.home .content h3{
+    font-size: 4rem;
+}
+.home .content span{
+    font-size: 2rem;
+}
+.home .content p{
+    font-size: 1.2rem;
+}
+
 
 
     }
